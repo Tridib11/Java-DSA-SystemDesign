@@ -9,7 +9,7 @@ public class Pattern3 {
         int totalStars=1;
         for(int rows=1;rows<=totalRows;rows++){
             for(int star=1;star<=totalStars;star++){
-                System.out.print("*");
+                System.out.print(star);
             }
             System.out.println();
             if(rows<=(totalRows/2)){
