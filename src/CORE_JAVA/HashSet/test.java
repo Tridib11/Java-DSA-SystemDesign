@@ -29,9 +29,6 @@ public class test {
 
         //Length
 
-        System.out.println("THe size of the set is "+set.size());
-
-        //Iterator
 
         Iterator it=set.iterator();
         while(it.hasNext()){
