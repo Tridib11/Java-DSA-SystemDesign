@@ -8,6 +8,9 @@ public class test {
         set.add(2);
         set.add(3);
         set.add(1);
+        set.add(5);
+        set.add(7);
+        set.add(9);
         System.out.println(set);
         //Search
         if(set.contains(2)){
@@ -27,6 +30,13 @@ public class test {
         //Length
 
         System.out.println("THe size of the set is "+set.size());
+
+        //Iterator
+
+        Iterator it=set.iterator();
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
 
     }
 }
