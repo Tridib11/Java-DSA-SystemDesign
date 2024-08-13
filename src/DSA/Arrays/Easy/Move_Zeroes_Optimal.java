@@ -1,6 +1,5 @@
 package DSA.Arrays.Easy;
 
-
 public class Move_Zeroes_Optimal {
     public static int[] moveZeros(int n, int []a) {
         // Write your code here.
@@ -25,10 +24,5 @@ public class Move_Zeroes_Optimal {
         }
 
         return a;
-
-
-
-
-
     }
 }
