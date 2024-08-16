@@ -1,3 +1,4 @@
+package DSA.Arrays.Easy.Medium;
 
 import java.util.*;
 public class TwoSum  {
