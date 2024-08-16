@@ -2,7 +2,7 @@ package Accenture;
 
 public class Leaders {
     public static void main(String[] args) {
-        int[] arr = {16,17,4,3,5,2};
+        int[] arr = {62,66,64,45,33,22,12};
         System.out.println(leader(arr));
     }
 
