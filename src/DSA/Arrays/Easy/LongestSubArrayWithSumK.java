@@ -1,3 +1,5 @@
+package DSA.Arrays.Easy;
+
 import java.util.*;
 public class LongestSubArrayWithSumK {
     public static int longestSubarrayWithSumK(int []a, long k) {

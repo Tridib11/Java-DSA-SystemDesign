@@ -1,10 +1,6 @@
 package DSA.Arrays.Easy;
 
 
-import java.util.* ;
-import java.io.*;
-
-
 public class Left_RotateArray_By_One_Place {
 
     static int[] rotateArray(int[] arr, int n) {

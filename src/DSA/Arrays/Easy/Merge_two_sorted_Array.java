@@ -1,3 +1,5 @@
+package DSA.Arrays.Easy;
+
 import java.util.*;
 public class Merge_two_sorted_Array {
     public static List< Integer > sortedArray(int []a, int []b) {

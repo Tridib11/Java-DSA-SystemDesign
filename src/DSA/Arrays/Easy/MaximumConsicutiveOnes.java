@@ -1,5 +1,5 @@
-import java.util.* ;
-import java.io.*;
+package DSA.Arrays.Easy;
+
 public class MaximumConsicutiveOnes {
     public static int consecutiveOnes(int n, int[] arr) {
         // Write your code here.

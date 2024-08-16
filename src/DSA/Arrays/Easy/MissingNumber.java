@@ -1,3 +1,5 @@
+package DSA.Arrays.Easy;
+
 public class MissingNumber {
     public static int missingNumber(int []a, int N) {
         // Write your code here.
