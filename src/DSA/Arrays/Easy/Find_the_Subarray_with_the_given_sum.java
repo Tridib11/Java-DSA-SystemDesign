@@ -26,7 +26,8 @@ public class Find_the_Subarray_with_the_given_sum {
                 start = 0;
                 end = i;
                 break;
-            } else if (map.containsKey(currentSum - sum)) {
+            }
+            if (map.containsKey(currentSum - sum)) {
                 start = map.get(currentSum - sum) + 1;
                 end = i;
                 break;
