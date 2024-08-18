@@ -38,4 +38,10 @@ public class PasswordValidate {
         return -1;
     }
 
+
+
+
+
+
+
 }
