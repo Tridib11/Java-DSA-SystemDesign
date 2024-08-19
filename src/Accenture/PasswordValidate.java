@@ -35,7 +35,7 @@ public class PasswordValidate {
         if(!hasNumeric || !hasUpperCase){
             return 0;
         }
-        return -1;//to me removed later to 1
+        return -1;//to me removed later to 1 to make consitent
     }
 
 
