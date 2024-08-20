@@ -1,4 +1,4 @@
-package DSA.Arrays.Easy.Medium;
+package DSA.Arrays.Medium;
 import java.util.*;
 public class TwoSumTesting {
     public static void main(String[] args) {
