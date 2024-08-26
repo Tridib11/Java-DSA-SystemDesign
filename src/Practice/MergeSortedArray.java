@@ -4,7 +4,10 @@ import java.util.*;
 public class MergeSortedArray {
 
     public static void main(String[] args) {
-
+        int[] a={1,2,3,4,6};
+        int[] b={2,3,5};
+        List<Integer> ans=sortedArray(a,b);
+        System.out.println(ans);
     }
     public static List< Integer > sortedArray(int []a, int []b) {
         // Write your code here
@@ -25,8 +28,21 @@ public class MergeSortedArray {
             }
         }
 
+        while(i<a.length){
+            if(ans.getLast()!=a[i]){
+                ans.add(a[i]);
+            }
+            i++;
+        }
+
+        while(j<b.length){
+            if(ans.getLast()!=b[j]){
+                ans.add(b[j]);
+            }
+            j++;
+        }
 
 
-
+        return ans;
     }
 }
