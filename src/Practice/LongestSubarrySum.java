@@ -17,9 +17,13 @@ public class LongestSubarrySum {
                 start=0;
                 end=i;
                 largestLength=Math.max(largestLength,(end-start)+1);
-            }else{
-
             }
+                if(map.containsKey(currentSum-k)){
+                    start=map.get(currentSum-k)+1;
+                    end=i;
+                    largestLength=Math.max(largestLength,(end-start)+1);
+                }
+
         }
 
     }
